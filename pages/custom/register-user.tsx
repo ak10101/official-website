@@ -216,7 +216,7 @@ export function Form({
   };
 
   return (
-    <form onSubmit={handleSubmit<(data: any) => Promise<void>>(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)}>
       <Wrapper title="Personal Details" subtitle="Please fill out all fields">
         <InputItem title="Full Name" span="5">
           <input
