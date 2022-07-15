@@ -1,6 +1,7 @@
 {
   "name": "gptc-perinthalmanna",
   "private": true,
+  "author": "Amjed Ali K <amjedmgm@gmail.com> (http://instagram.com/_amjed_ali_)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
